@@ -10,3 +10,8 @@ a {
 	color: inherit; /* blue colors for links too */
 	text-decoration: inherit; /* no underline */
 }
+
+.cv {
+	padding-left: 22px;
+	text-indent: -22px;
+}
