@@ -1,0 +1,12 @@
+body{
+	font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.5;
+  font-weight: 400;
+	font-family: 'EB Garamond', serif;
+	background-color: #0f0f0f;
+	color: #cfcfcf;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
