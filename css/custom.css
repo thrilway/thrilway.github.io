@@ -10,6 +10,24 @@ a {
 	color: inherit; /* blue colors for links too */
 	text-decoration: inherit; /* no underline */
 }
+nav>.container {
+	width: 100%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-item {
+    display: inline;
+    float: left;
+}
+
+.navbar-link {
+	display: block;
+	margin-right: 35px;
+}
 
 .cv {
 	padding-left: 22px;
