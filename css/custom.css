@@ -33,3 +33,7 @@ nav>.container {
 	padding-left: 22px;
 	text-indent: -22px;
 }
+
+.auth {
+	display: none;
+}
