@@ -18,21 +18,21 @@ nav>.container {
     list-style-type: none;
     padding: 0;
 }
-
+.navbar-item {
+  display: block;
+  float: left;
+}
+@media (min-width: 400px) {
 .navbar-item {
     display: inline;
     float: left;
 }
-.navbar-link {
-  display: block;
-  width: 100%;
 }
-@media (min-width: 400px) {
 .navbar-link {
 	display: block;
 	margin-right: 35px;
 }
-}
+
 .cv {
 	padding-left: 22px;
 	text-indent: -22px;
