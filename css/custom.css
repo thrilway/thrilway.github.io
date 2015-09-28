@@ -17,6 +17,13 @@ nav>.container {
 .navbar-list {
     list-style-type: none;
     padding: 0;
+    display: block;
+}
+@media (min-width: 400px) {
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+}
 }
 .navbar-item {
   display: block;
