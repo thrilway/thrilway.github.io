@@ -11,6 +11,7 @@ a {
 	text-decoration: inherit; /* no underline */
 }
 nav>.container {
+	padding-top: 22px;
 	width: 100%;
 }
 
