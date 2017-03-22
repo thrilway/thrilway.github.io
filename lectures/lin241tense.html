@@ -37,13 +37,13 @@
 			<p>(1)-(3) have the same core meaning</p>
 		</li>
 		<li class="next"><p>They differ in <em>tense</em></p></li>
-		<li class="next"><p>If "<span class="natlang">John read <em>Doctor Zhivago</em>
+		<li class="next"><p>If "<span class="natlang">John read <em>Dr Zhivago</em>
 		</span>" is true at some point in time, then "<span class="natlang">John is 
-		reading <em>Doctor Zhivago</em></span>" is true at some earlier point in time
+		reading <em>Dr Zhivago</em></span>" is true at some earlier point in time
 		</p></li>
-		<li class="next"><p>If "<span class="natlang">John will read <em>Doctor Zhivago</em>
+		<li class="next"><p>If "<span class="natlang">John will read <em>Dr Zhivago</em>
 		.</span>"is true at some point in time, then "<span class="natlang">John is
-		reading <em>Doctor Zhivago</em></span>" is true at some later point in time</p></li>
+		reading <em>Dr Zhivago</em></span>" is true at some later point in time</p></li>
 	</ul>
 </section>
 <section>
@@ -51,7 +51,7 @@
 	<ul>
 		<li><p>Currently, we just ignore tense</p></li>
 		<li class="next"><p>Set theory has no tense.</p></li>
-		<li class="next"><p>&#10214;<span class="natlang">John is reading <em>Doctor Zhivago</em>.</span>
+		<li class="next"><p>&#10214;<span class="natlang">John is reading <em>Dr Zhivago</em>.</span>
 		&#10215;<sup>M,c,g,w</sup>=1 
 		<br /> iff &lang;<span class="metalang">J&prime;,DrZh&prime;</span>&rang; &isin;
 		V(<span class="metalang">is reading</span>)</li>
@@ -125,6 +125,46 @@
 	<figure>
 		<img src="images/TenseTree.svg" alt="">
 	</figure>
+</section>
+<section>
+  <h3>How do we interpret S<sub><span class="feat">tense</span></sub>?</h3>
+  <ul>
+    <li><p>The truth of a tensed sentence is evaluated at the time of utterence (TU)</p></li>
+    <li class="next"><p>The state of affairs encoded in the sentence radical is interpreted relative to TU</p></li>
+    <ul>
+      <li class="next"><p>The truth of "<span class="natlang">John will read <em>Dr Zhivago</em></span>" depends the
+	  state of affairs at some point in time that comes after the time it is uttered</p></li>
+    </ul>
+    <li class="next"><p>How do we encode that?</p></li>
+  </ul>
+</section>
+<section>
+  <h3>Introducing events</h3>
+  <ul>
+    <li><p>In our current system, verbs denote relations between individuals.</p></li>
+    <ul>
+      <li class="next"><p>V(<span class="metalang">read</span>) = {&lang;x, y&rang; : x read y}</p></li>
+    </ul>
+    <li class="next"><p>Sentence radicals, then, denote propositions.</p></li>
+    <li class="next"><p>Our intuitive sense is that they describe "states of affairs"</p></li>
+    <li class="next"><p>Semanticists call these "states of affairs" <mark>Events</mark>.</p></li>
+    <li class="next"><p>Events are a new type of semantic object in our model</p></li>
+  </ul>
+</section>
+<section>
+  <h3>Adding Events to our Model</h3>
+  <ul>
+    <li><p>Our current conception of our model: M = &lang;D, V&rang;</p></li>
+    <li class="next"><p>The domain of discourse D is actually split into subdomains:</p></li> 
+    <ul>
+      <li class="next"><p>Domain of entities D<sub>e</sub>
+	  <br />{John', <em>Dr Zhivago</em>', &hellip;}</p></li>
+      <li class="next"><p>Domain of truth-values D<sub>t</sub>
+	  <br /> {0,1}
+      </p></li>
+    </ul>
+    <li class="next"><p>Now we add the domain of events D<sub>v</sub></p></li> 
+  </ul>
 </section>
 
 <!-- Your Style -->
@@ -252,10 +292,10 @@
     position: absolute;
   }
   figure > img, figure > video {
-    width: 90%; height: 90%;
+    width: 80%; height: 80%;
   }
   figcaption {
-    margin: 70px;
+    margin: 0px;
     font-size: 1.75rem;
   }
 
