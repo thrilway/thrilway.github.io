@@ -129,7 +129,7 @@
 <section>
   <h3>How do we interpret S<sub><span class="feat">tense</span></sub>?</h3>
   <ul>
-    <li><p>The truth of a tensed sentence is evaluated at the <mark>time of utterence</mark> (TU)</p></li>
+    <li><p>The truth of a tensed sentence is evaluated at the <mark>time of utterence</mark> (UT)</p></li>
     <li class="next"><p>The state of affairs encoded in the sentence radical is interpreted relative to TU</p></li>
     <ul>
       <li class="next"><p>The truth of "<span class="natlang">John will read <em>Dr Zhivago</em></span>" depends the
@@ -166,6 +166,48 @@
     <li class="next"><p>Now we add the domain of events D<sub>v</sub></p></li>
   </ul>
 </section>
+<section>
+	<h3>Events and time</h3>
+	<ul>
+	<li><p>Unlike entites and truth-values, each event has a
+	time or interval of time associated with it</p></li>
+	<li class="next"><p>If John brushes his teeth in the morning and again at night,</p></li>
+	<ul>
+		<li class="next"><p>&hellip; two distinct events have occurred</p></li>
+		<li class="next"><p>&hellip; but one individual participated in both events</p></li>
+	</ul>
+	<li class="next"><p>For any given event e, time(e) is the time associated with e.</p></li>
+</section>
+<section>
+	<h3>Putting events to work</h3>
+	<ul>
+		<li><p>To make our sentence radicals event descriptions we must modify our
+		verb denotations</p></li>
+		<li class="next"><p><s>V(<span class="metalang">read</span>) = 
+		{&lang;x,y&rang; : x,y &isin; D<sub>e</sub> and x read y}</s></p></li>
+		<li class="next"><p>V(<span class="metalang">read</span>)= {&lang;e,x,y&rang; : 
+		e is an event of x reading y}</p></li>
+		<li class="next"><p>&#10214;[<sub>S</sub><span class="natlang">John read <em>Dr Zhivago</em>.</span>
+		]&#10215;<sup>M,c,g,w</sup> =
+		<br />
+		{e: &lang;e, <span class="metalang">John&prime;</span>, 
+		<span class="metalang">DrZh&prime;</span>&rang; &isin; V(<span class="metalang">read</span>)}</p></li>
+		<li class="next"><p>This denotation can serve as an argument to a TENSE predicate</p></li>
+	</ul>
+</section>
+<section>
+	<h3>Putting events to work</h3>
+	 <p>(1-3) [<sub>S<sub>T</sub></sub> TENSE [<sub>S</sub> <span class="natlang">John read <em>Dr Zhivago</em></span>]]</p>
+	<ul>
+		<li class="next"><p>TENSE defines a relation R between the time of utterance (UT) 
+		and the time of the event described by S (ET).</p>
+		<li class="next"><p>&#10214;[<sub>S<sub>T</sub></sub>TENSE S]&#10215;<sup>M,c,g,w</sup>=1
+		iff there is an event e s.t. &lang;time(e), time(c)&rang; &isin; R and e &isin; &#10214;S&#10215;<sup>M,c,g,w</sup> </p></li>
+		<li class="next"><p>Present: UT and ET are simultaneous</p></li>
+		<li class="next"><p>Past: ET precedes UT</p></li>
+		<li class="next"><p>Future: ET follows UT</p></li>
+	</ul>
+</section>
 <!-- Your Style -->
 <!-- Define the style of your presentation -->
 
@@ -174,7 +216,7 @@
 <!-- <link href='http://fonts.googleapis.com/css?family=Futura' rel='stylesheet'> -->
 <!--<link href='http://fonts.googleapis.com/css?family=Helvetica' rel='stylesheet'> -->
 <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 <style>
@@ -262,9 +304,12 @@
   }
 
   table {
-    margin: auto;
-    font-size:2.5rem;
-    text-align: center;
+    /*margin: auto;*/
+    font-size:1.5rem;
+    text-align: left;
+  }
+  table > th, td {
+  		margin-right: 50px;
   }
 
   blockquote {
@@ -331,7 +376,7 @@
   }
 
   .natlang {
-    font-family: "Droid Serif", serif;	  
+    font-family: "Merriweather", serif;	  
   }
 
   .metalang {
