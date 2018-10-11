@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://www.milway.ca
   * I am milway (https://keybase.io/milway) on keybase.
-  * I have a public key with fingerprint FC99 7096 91CE 6099 D2C6  1F40 675D D37F 8E83 BE59
+  * I have a public key ASANNp9RqWRv-lQMJlCMaR2wsIteZbIR7hedTz1Xj3v-ZQo
 
 To do so, I am signing this object:
 
@@ -14,51 +14,39 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "010160b406eaa6d6881fad4ce418ad28230ead1a2838691172ac2306f3801c3b28d40a",
-      "fingerprint": "fc99709691ce6099d2c61f40675dd37f8e83be59",
       "host": "keybase.io",
-      "key_id": "675dd37f8e83be59",
-      "kid": "010160b406eaa6d6881fad4ce418ad28230ead1a2838691172ac2306f3801c3b28d40a",
+      "kid": "01200d369f51a9646ffa540c26508c691db0b08b5e65b211ee179d4f3d578f7bfe650a",
       "uid": "3bfa40cfeae85a9d82db9ab23fc9d219",
       "username": "milway"
     },
+    "merkle_root": {
+      "ctime": 1539260792,
+      "hash": "9571289429d7d5a06d5c6705e7cabbf03ce7c177acb98d0a7827599f80696603f1021912794e125ca00e5ce68bedffad1f41ddef5b12af8c1fdb45e6c2b37e00",
+      "hash_meta": "4843713eeacd39d5e3704dff278678dec49ff97dc338f0fec48d2a82ef2a2667",
+      "seqno": 3780567
+    },
     "service": {
+      "entropy": "dEwd8S+RIFc4OLApwOuyHTPF",
       "hostname": "www.milway.ca",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1539199383,
-  "expire_in": 157680000,
-  "prev": "b45a0b4b4c3e12aab8a3b6c4a8f92784b181bc69a7c5be5dc77e963d0efc4c6f",
-  "seqno": 2,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.8.0"
+  },
+  "ctime": 1539260808,
+  "expire_in": 504576000,
+  "prev": "deb0b7dd8f822f5aba9e2fbb1dbbb2a251a5081383fe953c683c13d0506bc0af",
+  "seqno": 16,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.80
-Comment: https://keybase.io/crypto
-
-yMIlAnicrVJZSFVBGL5XM0kNipLILOwU2YPImbPO3Ir2sKggJYM0r3Nm5uhJu+d2
-7rlel4R6iNaHKLFCWjStIIqIqKgos0KwNFsIs6CNaEEqoY3Eao7VW4/NyzD//23/
-z9wYGe9L8guFA10DIpjjv3WtPuoruLJib41g2LRKCNQIZWzoYuWURdxgmUWFgCAC
-EWiioYgaw1ijGoTAxFQhTAEQUwlKssgwBViCMtQQALqECa9ppgxFQGRDglQRsZAl
-mFaohDlhxwq5XNYkCOki4gzCNBEhKhENmNxFVymVdRMyKBtMRZxYakc8Bg9n4AjL
-tmxe44/gULx/4P9z7uiQnGyYWBGJyTCDKkYUStRA2JBkPgiVgOcbjTAnhNcxjl5n
-lcdwlVCbJfBahUWYt1Zvjj/9WCyW/RuTTTyPsGO7NrHLeavUdcORgEd1q8JDWGYE
-/6gEDStE+Ro5o4I5EcsOCQHAkcS1PFmgygggJEM5S2CVYcthQctDqLoGRX48H1bB
-JQ1FxXw1hkJkBiSMDYhlQyMKhiaSdKgYAAKDaAjrROVLpUTXGdJkKjKTKEQzBW+u
-9SFbCEg8Ji7hkhGrJITdqMOE2rbWwmE+f5JveEKc9718SSNG/f10h3MSf27oPVld
-2H79YJE/o3P1vMWxqfW30zu2z5+y/2dRZcM2tDOhf/KWgY8ZS8rP3VmZ5cxpnXbo
-26jwpJQLjzrmrmnvA4XdI9/fTxMfD3RnuiffjV7atDb54r2S7Japb3yDXR0fJH90
-fg4O5Vef+J6XZiozNjU2b72cP/P52fPHvoxtfjLhaPTNrvG9dZfy3+6zT78UEocX
-rMo7XvviVOdkqB7YczVmtn0u/oQeJS98sbVOa3Titqek3tyR8NQX93r2UpS7W8zs
-ONGjr5p99mHxopbSxwk1R5a9Tqmum9j3Y/mZu1+75vVsnNUbiD1w0lW94VVTA0wd
-Nz13Qf6z6YPxxWOa+vrPpG62fgGXPUCK
-=h02B
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDTafUalkb/pUDCZQjGkdsLCLXmWyEe4XnU89V497/mUKp3BheWxvYWTESpcCEMQg3rC33Y+CL1q6ni+7HbuyolGlCBOD/pU8aDwT0FBrwK/EILmx+s5a/sxj4sEKDGpX/yMkKcDDeo8sSmdfZne85oSZAgHCo3NpZ8RA4mYRmilR6Vn9PbUkuv7J0gp9h2T0aH7E0pUGX5GZ//7uu0N2qVXgcClYzII7m+MvYA21zVWE908efJNlX5m8CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKCTbztp8S5O/WMstpzvO/xF7TOr3OLTRmM331ov112wo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -66,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/milway
 
 ==================================================================
-
